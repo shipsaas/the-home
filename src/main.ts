@@ -1,7 +1,7 @@
 import { createHead } from '@vueuse/head';
 import { createApp } from 'vue';
 import App from './App.vue';
-import './assets/index.postcss';
+import './assets/css/index.postcss';
 import router from './router';
 
 const head = createHead();
