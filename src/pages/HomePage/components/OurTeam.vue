@@ -9,7 +9,8 @@
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
           We’re a dynamic group of individuals who are passionate about what we
-          do and dedicated to develop AWESOME things and contribute them to the big Open Source Software world.
+          do and dedicated to develop AWESOME things and contribute them to the
+          big Open Source Software world.
 
           <br />
           <br />
@@ -122,8 +123,7 @@ const people = ref<PersonInfo>([
   {
     name: '(Seth) Phat Tran',
     role: 'ShipSaaS Leader',
-    imageUrl:
-      'https://github.com/sethsandaru.png',
+    imageUrl: 'https://github.com/sethsandaru.png',
     bio: `
       A Sr.Software Engineer who deeply passionate about PHP, Laravel,... (all kinds of Tech)
       and actively contributing to the open-source software community.

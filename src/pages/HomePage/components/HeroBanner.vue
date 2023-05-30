@@ -40,7 +40,9 @@
           Build Products with 100% Confidence
         </h1>
         <p class="mt-6 text-lg leading-8 text-gray-600">
-          <strong>ShipSaaS</strong> focuses on delivering exceptional helpers and libraries to assist you in building and enhancing your next SaaS products.
+          <strong>ShipSaaS</strong> focuses on delivering exceptional helpers
+          and libraries to assist you in building and enhancing your next SaaS
+          products.
           <br />
           Specializing in PHP & Laravel
         </p>
