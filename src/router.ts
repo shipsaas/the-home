@@ -1,13 +1,20 @@
-import { createRouter, createWebHistory } from 'vue-router';
-
-import IndexPage from '@/pages/HomePage/IndexPage.vue';
+import { createRouter, createWebHistory, type RouteComponent } from 'vue-router';
 
 const routes = [
   {
     path: '/',
-    component: IndexPage,
+    name: 'home-page',
+    component: (): Promise<RouteComponent> => import('./pages/HomePage/IndexPage.vue'),
     meta: {
-      title: 'ShipSaaS',
+      title: 'Home - ShipSaaS',
+    },
+  },
+  {
+    path: '/projects',
+    name: 'project-page',
+    component: (): Promise<RouteComponent> => import('./pages/ProjectPage/ProjectPage.vue'),
+    meta: {
+      title: 'Projects',
     },
   },
 ];
