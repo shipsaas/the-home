@@ -45,6 +45,7 @@
               <li v-if="person.twitterUrl">
                 <a
                   :href="person.twitterUrl"
+                  target="_blank"
                   class="text-gray-400 hover:text-gray-500"
                 >
                   <span class="sr-only">Twitter</span>
@@ -63,6 +64,7 @@
               <li v-if="person.linkedinUrl">
                 <a
                   :href="person.linkedinUrl"
+                  target="_blank"
                   class="text-gray-400 hover:text-gray-500"
                 >
                   <span class="sr-only">LinkedIn</span>
@@ -83,6 +85,7 @@
               <li v-if="person.githubUrl">
                 <a
                   :href="person.githubUrl"
+                  target="_blank"
                   class="text-gray-400 hover:text-gray-500"
                 >
                   <span class="sr-only">GitHub</span>
@@ -121,13 +124,13 @@ type PersonInfo = {
 
 const people = ref<PersonInfo>([
   {
-    name: '(Seth) Phat Tran',
-    role: 'ShipSaaS Leader',
+    name: 'Seth Phat',
+    role: 'Main Leader of ShipSaaS',
     imageUrl: 'https://github.com/sethsandaru.png',
     bio: `
-      A Sr.Software Engineer who deeply passionate about PHP, Laravel,... (all kinds of Tech)
+      A Sr.Software Engineer who deeply passionate about Technologies
       and actively contributing to the open-source software community.
-      Continually striving to improve and innovate within the ecosystem
+      Continually striving to improve and innovate within the ecosystem.
     `,
     linkedinUrl: 'https://www.linkedin.com/in/sethphat',
     githubUrl: 'https://github.com/sethsandaru',

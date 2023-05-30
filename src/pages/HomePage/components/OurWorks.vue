@@ -4,14 +4,19 @@
       <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
         <div class="max-w-3xl">
           <h2 class="text-4xl font-bold tracking-tight text-gray-900">
-            We built our business on customer service
+            We built AWESOME Helpers & Libraries
           </h2>
           <p class="mt-4 text-gray-500">
-            At the beginning at least, but then we realized we could make a lot
-            more money if we kinda stopped caring about that. Our new strategy
-            is to write a bunch of things that look really good in the
-            headlines, then clarify in the small print but hope people don't
-            actually read it.
+            ShipSaaS is an open-source organization that empowers all types of SaaS products.
+            <br />
+            <br />
+            We offer packages for PHP & Laravel. Feel free to install them and enhance your productivity and processes.
+            <br />
+            <br />
+            Focus on your products and business logic; let us help you concentrate on the Core.
+            <br />
+            <br />
+            ShipSaaS's ultimate goal is to become everyone's helpful and reliable companion.
           </p>
         </div>
         <div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
@@ -41,18 +46,18 @@
 <script setup>
 const incentives = [
   {
-    name: 'Free shipping',
+    name: 'Focus on the business',
     imageSrc:
       'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
     description:
-      "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
+      `Focus 100% on your business logic, let us handle the "Core" parts.`,
   },
   {
-    name: '10-year warranty',
+    name: 'Battle-tested & Reliable',
     imageSrc:
       'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
     description:
-      "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
+      `We cover everything under Unit, Integration & E2E Testing with 90%+ coverage. Provide a huge confidence & reliability to your mission-critical applications.`,
   },
   {
     name: 'Exchanges',
