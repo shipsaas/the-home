@@ -128,7 +128,7 @@ const people = ref<PersonInfo>([
     role: 'Main Leader of ShipSaaS',
     imageUrl: 'https://github.com/sethsandaru.png',
     bio: `
-      A Sr.Software Engineer who deeply passionate about Technologies
+      A Sr. Software Engineer who deeply passionate about Technologies
       and actively contributing to the open-source software community.
       Continually striving to improve and innovate within the ecosystem.
     `,

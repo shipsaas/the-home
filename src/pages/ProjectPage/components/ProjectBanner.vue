@@ -7,11 +7,11 @@
       <h2
         class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
       >
-        Our Projects - Our Works
+        Our Projects
       </h2>
       <p class="mt-6 text-lg leading-8 text-gray-600">
-        We empower every application by providing the awesome and reliable
-        helpers, libraries and even sustainable implemented system.
+        We empower every application by offering exceptional and dependable
+        helpers, libraries, and even sustainably implemented systems.
       </p>
     </div>
   </div>
