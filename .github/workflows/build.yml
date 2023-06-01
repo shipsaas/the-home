@@ -4,9 +4,13 @@ env:
   SSH_KEY: ${{ secrets.SSH_KEY }}
 
 on:
+  pull_request:
+    branches:
+      - 'main'
+    types: [ opened, synchronize, reopened, ready_for_review ]
   push:
     branches:
-      - main
+      - 'main'
 
 jobs:
   deploy:
