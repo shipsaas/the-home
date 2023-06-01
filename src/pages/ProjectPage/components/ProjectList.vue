@@ -41,6 +41,7 @@
                 <Tag
                   v-for="(tag, tagIndex) in product.tags"
                   :key="`${tag}-${tagIndex}`"
+                  :type="getTagType(tag)"
                 >
                   {{ tag }}
                 </Tag>
@@ -57,9 +58,20 @@
 </template>
 
 <script setup lang="ts">
-import Tag from "@/components/Tag/Tag.vue";
+import Tag, { BadgeType } from "@/components/Tag/Tag.vue";
 import DevFlagImage from '@/assets/images/DevFlag.jpg';
 import NeverThrowImage from '@/assets/images/NeverThrow.jpg';
+
+function getTagType(tag: string): BadgeType
+{
+  switch (tag) {
+    case 'System': return 'warning';
+    case 'Infrastructure': return 'success';
+    case 'Library': return 'primary';
+    case 'Best practice': return 'lovely';
+    default: return 'default';
+  }
+}
 
 const products = [
   {
