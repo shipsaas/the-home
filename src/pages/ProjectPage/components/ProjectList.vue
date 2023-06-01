@@ -58,6 +58,8 @@
 
 <script setup lang="ts">
 import Tag from "@/components/Tag/Tag.vue";
+import DevFlagImage from '@/assets/images/DevFlag.jpg';
+import NeverThrowImage from '@/assets/images/NeverThrow.jpg';
 
 const products = [
   {
@@ -101,7 +103,7 @@ const products = [
     id: 4,
     name: 'Ready',
     imageSrc:
-      'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg',
+      'https://iili.io/HrPboa1.md.jpg',
     repository: 'shipsaas/ready',
     description: `Ready injects completely generic stuff (Countries, Currencies,...) to build your next freaking SaaS products`,
     tags: [
@@ -113,7 +115,7 @@ const products = [
     id: 5,
     name: 'CurrencyFX',
     imageSrc:
-      'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg',
+      'https://iili.io/HrPbuwJ.md.jpg',
     repository: 'shipsaas/currency-fx',
     description: `PHP (Laravel's portable) library to handle Currency FX (Rates, Conversions,...). Drivers for multiple online services.`,
     tags: [
@@ -124,8 +126,7 @@ const products = [
   {
     id: 6,
     name: 'NeverThrow',
-    imageSrc:
-      'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg',
+    imageSrc: NeverThrowImage,
     repository: 'shipsaas/never-throw',
     description: `Type-safe & IDE-friendly Response-first over Throw Exceptions. PHP NeverThrow library`,
     tags: [
@@ -136,8 +137,7 @@ const products = [
   {
     id: 8,
     name: 'DevFlag',
-    imageSrc:
-      'https://tailwindui.com/img/ecommerce-images/category-page-05-image-card-01.jpg',
+    imageSrc: DevFlagImage,
     repository: 'shipsaas/dev-flag',
     description: `Enabling your Application development to follow the CI/CD best practice by using the DevFlag`,
     tags: [
