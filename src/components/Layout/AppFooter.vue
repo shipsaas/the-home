@@ -6,12 +6,12 @@
         aria-label="Footer"
       >
         <div v-for="item in navigation.main" :key="item.name" class="pb-6">
-          <router-link
-            :to="item.href"
+          <a
+            :href="item.href"
             class="text-sm leading-6 text-gray-600 hover:text-gray-900"
           >
             {{ item.name }}
-          </router-link>
+          </a>
         </div>
       </nav>
       <div class="mt-10 flex justify-center space-x-10">

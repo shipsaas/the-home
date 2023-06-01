@@ -1,5 +1,8 @@
 <template>
-  <span class="inline-flex items-center rounded-full px-1.5 py-0.5" :class="computedClasses">
+  <span
+    class="inline-flex items-center rounded-full px-1.5 py-0.5"
+    :class="computedClasses"
+  >
     <slot />
   </span>
 </template>
@@ -7,12 +10,13 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 
-export type BadgeType = 'default' |
-  'success' |
-  'warning' |
-  'error' |
-  'lovely' |
-  'primary';
+export type BadgeType =
+  | 'default'
+  | 'success'
+  | 'warning'
+  | 'error'
+  | 'lovely'
+  | 'primary';
 
 type TagProps = {
   type: BadgeType;

@@ -58,18 +58,22 @@
 </template>
 
 <script setup lang="ts">
-import Tag, { BadgeType } from "@/components/Tag/Tag.vue";
+import Tag, { BadgeType } from '@/components/Tag/Tag.vue';
 import DevFlagImage from '@/assets/images/DevFlag.jpg';
 import NeverThrowImage from '@/assets/images/NeverThrow.jpg';
 
-function getTagType(tag: string): BadgeType
-{
+function getTagType(tag: string): BadgeType {
   switch (tag) {
-    case 'System': return 'warning';
-    case 'Infrastructure': return 'success';
-    case 'Library': return 'primary';
-    case 'Best practice': return 'lovely';
-    default: return 'default';
+    case 'System':
+      return 'warning';
+    case 'Infrastructure':
+      return 'success';
+    case 'Library':
+      return 'primary';
+    case 'Best practice':
+      return 'lovely';
+    default:
+      return 'default';
   }
 }
 
@@ -82,10 +86,7 @@ const products = [
     repository: 'shipsaas/docking',
     description:
       'Your shared-microservice that takes over the document templates management & render/export PDF.',
-    tags: [
-      'System',
-      'Infrastructure',
-    ],
+    tags: ['System', 'Infrastructure'],
   },
   {
     id: 2,
@@ -93,10 +94,7 @@ const products = [
     imageSrc: 'https://i.imgur.com/H8OEMhQ.png',
     repository: 'shipsaas/laravel-priority-queue',
     description: `Priority Queues driver implementation for Laravel. Utilizing DB Driver.`,
-    tags: [
-      'Library',
-      'Infrastructure',
-    ],
+    tags: ['Library', 'Infrastructure'],
   },
   {
     id: 3,
@@ -105,35 +103,23 @@ const products = [
       'https://raw.githubusercontent.com/shipsaas/safe-dispatcher/main/docs/SafeDispatcher.png',
     repository: 'shipsaas/safe-dispatcher',
     description: `Laravel SafeDispatcher dispatches your Queue Jobs in a safer & recoverable way.`,
-    tags: [
-      'Library',
-      'Reliability',
-      'Stability',
-    ],
+    tags: ['Library', 'Reliability', 'Stability'],
   },
   {
     id: 4,
     name: 'Ready',
-    imageSrc:
-      'https://iili.io/HrPboa1.md.jpg',
+    imageSrc: 'https://iili.io/HrPboa1.md.jpg',
     repository: 'shipsaas/ready',
     description: `Ready injects completely generic stuff (Countries, Currencies,...) to build your next freaking SaaS products`,
-    tags: [
-      'Library',
-      'Scaffolding',
-    ],
+    tags: ['Library', 'Scaffolding'],
   },
   {
     id: 5,
     name: 'CurrencyFX',
-    imageSrc:
-      'https://iili.io/HrPbuwJ.md.jpg',
+    imageSrc: 'https://iili.io/HrPbuwJ.md.jpg',
     repository: 'shipsaas/currency-fx',
     description: `PHP (Laravel's portable) library to handle Currency FX (Rates, Conversions,...). Drivers for multiple online services.`,
-    tags: [
-      'Library',
-      'Helper',
-    ],
+    tags: ['Library', 'Helper'],
   },
   {
     id: 6,
@@ -141,10 +127,7 @@ const products = [
     imageSrc: NeverThrowImage,
     repository: 'shipsaas/never-throw',
     description: `Type-safe & IDE-friendly Response-first over Throw Exceptions. PHP NeverThrow library`,
-    tags: [
-      'Library',
-      'Best practice',
-    ],
+    tags: ['Library', 'Best practice'],
   },
   {
     id: 8,
@@ -152,10 +135,7 @@ const products = [
     imageSrc: DevFlagImage,
     repository: 'shipsaas/dev-flag',
     description: `Enabling your Application development to follow the CI/CD best practice by using the DevFlag`,
-    tags: [
-      'Library',
-      'Best practice',
-    ],
+    tags: ['Library', 'Best practice'],
   },
 ];
 </script>
