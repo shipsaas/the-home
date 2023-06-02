@@ -13,8 +13,8 @@ on:
       - 'main'
 
 jobs:
-  deploy:
-    name: "Deploy Production"
+  build:
+    name: "Lint, Type check & Build"
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
