@@ -108,7 +108,7 @@ const products = [
   {
     id: 4,
     name: 'Ready',
-    imageSrc: 'https://iili.io/HrPboa1.md.jpg',
+    imageSrc: 'https://iili.io/HrPboa1.jpg',
     repository: 'shipsaas/ready',
     description: `Ready injects completely generic stuff (Countries, Currencies,...) to build your next freaking SaaS products`,
     tags: ['Library', 'Scaffolding'],
@@ -116,7 +116,7 @@ const products = [
   {
     id: 5,
     name: 'CurrencyFX',
-    imageSrc: 'https://iili.io/HrPbuwJ.md.jpg',
+    imageSrc: 'https://iili.io/HrPbuwJ.jpg',
     repository: 'shipsaas/currency-fx',
     description: `PHP (Laravel's portable) library to handle Currency FX (Rates, Conversions,...). Drivers for multiple online services.`,
     tags: ['Library', 'Helper'],
