@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-gray-50 py-24 sm:py-32">
+  <div class="bg-emerald-50 py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
       >
         <div>
-          <h2 class="text-base font-semibold leading-7 text-indigo-600">
+          <h2 class="text-base font-semibold leading-7 text-emerald-600">
             What's we do?
           </h2>
           <p
@@ -36,7 +36,7 @@
           >
             <dt class="font-semibold text-gray-900">
               <CheckIcon
-                class="absolute left-0 top-1 h-5 w-5 text-indigo-500"
+                class="absolute left-0 top-1 h-5 w-5 text-emerald-500"
                 aria-hidden="true"
               />
               {{ feature.name }}

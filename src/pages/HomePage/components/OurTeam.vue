@@ -122,10 +122,10 @@ type PersonInfo = {
   githubUrl?: string;
 };
 
-const people = ref<PersonInfo>([
+const people = ref<PersonInfo[]>([
   {
     name: 'Seth Phat',
-    role: 'Main Leader of ShipSaaS',
+    role: 'Founder & Leader of ShipSaaS',
     imageUrl: 'https://github.com/sethsandaru.png',
     bio: `
       A Sr. Software Engineer who deeply passionate about Technologies

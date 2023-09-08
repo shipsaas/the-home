@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "vite --port=3000",
     "build": "vite build",
+    "build:watch": "vite build --watch & vite preview",
     "preview": "vite build && vite preview",
     "start": "pnpm dev",
     "type-check": "vue-tsc --noEmit --composite false",

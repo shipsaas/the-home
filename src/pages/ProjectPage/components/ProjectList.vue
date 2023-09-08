@@ -72,6 +72,8 @@ function getTagType(tag: string): BadgeType {
       return 'primary';
     case 'Best practice':
       return 'lovely';
+    case 'Optimization':
+      return 'error';
     default:
       return 'default';
   }
@@ -103,7 +105,23 @@ const products = [
       'https://raw.githubusercontent.com/shipsaas/safe-dispatcher/main/docs/SafeDispatcher.png',
     repository: 'shipsaas/safe-dispatcher',
     description: `Laravel SafeDispatcher dispatches your Queue Jobs in a safer & recoverable way.`,
-    tags: ['Library', 'Reliability', 'Stability'],
+    tags: ['Library', 'Infrastructure'],
+  },
+  {
+    id: 9,
+    name: 'Laravel Inbox Process',
+    imageSrc: 'https://raw.githubusercontent.com/shipsaas/laravel-inbox-process/main/.github/logo.png',
+    repository: 'shipsaas/laravel-inbox-process',
+    description: `The Inbox Pattern/Process for Laravel projects. Ensure the ordering, uniqueness, and reliable handling of webhook requests.`,
+    tags: ['Library', 'Infrastructure'],
+  },
+  {
+    id: 10,
+    name: 'Laravel Resource Reducer',
+    imageSrc: 'https://repository-images.githubusercontent.com/686591897/bfc31be0-ca7c-4e1b-9cd6-8ce4e98d0108',
+    repository: 'shipsaas/laravel-resource-reducer',
+    description: `Resource Reducer optimizes your API endpoint responses by return what consumers need, defer execution and no more BIG FAT JSON.`,
+    tags: ['Library', 'Optimization', 'Best practice'],
   },
   {
     id: 4,

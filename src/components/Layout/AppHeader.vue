@@ -25,7 +25,7 @@
               :key="item.name"
               :class="[
                 index === currentActiveIndex
-                  ? 'border-indigo-500 text-gray-900'
+                  ? 'border-emerald-500 text-gray-900'
                   : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700',
                 'inline-flex items-center border-b-2 px-1 pt-1 text-sm font-medium',
               ]"
@@ -41,7 +41,7 @@
           <a
             href="https://github.com/shipsaas"
             target="_blank"
-            class="rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 flex gap-1"
+            class="rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 flex gap-1"
           >
             <span>GitHub</span>
             <LinkIcon class="h-6 w-6" aria-hidden="true" />
@@ -50,7 +50,7 @@
         <div class="-mr-2 flex items-center sm:hidden">
           <!-- Mobile menu button -->
           <DisclosureButton
-            class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+            class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2"
           >
             <span class="sr-only">Open main menu</span>
             <Bars3Icon v-if="!open" class="block h-6 w-6" aria-hidden="true" />
@@ -69,7 +69,7 @@
           href="javascript:void(0);"
           :class="[
             index === currentActiveIndex
-              ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
+              ? 'border-emerald-500 bg-emerald-50 text-emerald-700'
               : 'border-transparent text-gray-600 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-800',
             'block border-l-4 py-2 pl-3 pr-4 text-base font-medium',
           ]"
