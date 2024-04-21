@@ -1,4 +1,4 @@
-const SITE_NAME = 'ShipSaaS';
+const SITE_NAME = 'ShipSaaS Integration System LLC';
 
 export const setPageTitle = (title: string | null) => {
   if (!title) {

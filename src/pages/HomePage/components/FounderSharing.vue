@@ -18,13 +18,16 @@
             <br />
             <br />
             Now, I'm happily contributing some
-            of my honest work from the real life experience & give back to the the OSS community & world.
+            of my honest work crafted based on real life experience & give back to the OSS community & world.
 
             <br />
             <br />
 
-            I hope ShipSaaS can become everyone's helpful and reliable
-            companion. ”
+            I believe ShipSaaS will become everyone's helpful, and reliable
+            companion.
+            <br />
+            <br />
+            Scale up faster with ShipSaaS”
           </p>
         </blockquote>
         <figcaption class="mt-10">
@@ -46,10 +49,12 @@
             >
               <circle cx="1" cy="1" r="1" />
             </svg>
-            <div class="text-gray-600">Founder & Leader of ShipSaaS</div>
+            <div class="text-gray-600">Founder of ShipSaaS</div>
           </div>
         </figcaption>
       </figure>
     </div>
   </section>
 </template>
+<script setup lang="ts">
+</script>

@@ -1,20 +1,22 @@
 <template>
-  <div class="bg-white py-24 md:py-32">
+  <div class="bg-emerald-50/80 py-24 md:py-32">
     <div
       class="mx-auto grid max-w-7xl grid-cols-1 gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-5"
     >
       <div class="max-w-2xl xl:col-span-2">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          About the team
+          About ShipSaaS
         </h2>
         <p class="mt-6 text-lg leading-8 text-gray-600">
-          We’re a dynamic group of individuals who are passionate about what we
-          do and dedicated to develop AWESOME things and contribute them to the
-          big Open Source Software world.
+          I (hopefully changing to "we" soon) love to build things that make people life easier, helps systems way more scalable, reliable and maintainable.
 
           <br />
           <br />
-          You could be the next one to join us 😉
+          Making engineers & managers sleep peacefully at night too.
+
+          <br />
+          <br />
+          Things are solo at the moment but I believe you could be the next one to join me 😉
         </p>
       </div>
       <ul
@@ -50,7 +52,7 @@
                 >
                   <span class="sr-only">Twitter</span>
                   <svg
-                    class="h-5 w-5"
+                    class="h-6 w-6"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -69,7 +71,7 @@
                 >
                   <span class="sr-only">LinkedIn</span>
                   <svg
-                    class="h-5 w-5"
+                    class="h-6 w-6"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -90,7 +92,7 @@
                 >
                   <span class="sr-only">GitHub</span>
                   <svg
-                    class="h-5 w-5"
+                    class="h-6 w-6"
                     aria-hidden="true"
                     fill="currentColor"
                     viewBox="0 0 24 24"
@@ -125,10 +127,10 @@ type PersonInfo = {
 const people = ref<PersonInfo[]>([
   {
     name: 'Seth Phat',
-    role: 'Founder & Leader of ShipSaaS',
+    role: 'Founder of ShipSaaS',
     imageUrl: 'https://github.com/sethsandaru.png',
     bio: `
-      A Sr. Software Engineer who deeply passionate about Technologies
+      An elevated Sr. Software Engineer & Laravel Core contributor who deeply passionate about Technologies
       and actively contributing to the open-source software community.
       Continually striving to improve and innovate within the ecosystem.
     `,

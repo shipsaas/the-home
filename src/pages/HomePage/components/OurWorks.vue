@@ -14,16 +14,16 @@
             We've built AWESOME Libraries & Helpers
           </p>
           <p class="mt-6 text-base leading-7 text-gray-600">
-            ShipSaaS is an open-source organization that empowers all types of
+            ShipSaaS proudly empowers all types of
             SaaS products.
             <br />
             <br />
-            We offer packages for PHP & Laravel. Feel free to install them and
+            We ship packages for PHP & Laravel. Feel free to install them and
             enhance your productivity and processes.
             <br />
             <br />
-            Focus on your products and business logic; let us help you
-            concentrate on the Core.
+            Focus on your products and business logic; let us
+            concentrate on the Core for you.
           </p>
         </div>
         <dl
@@ -56,12 +56,12 @@ const features = [
   {
     name: 'PHP & Laravel',
     description:
-      'PHP runs through our veins, with a primary focus on the Laravel framework.',
+      'PHP runs through our veins, with a primary focus on the Laravel framework - biggest framework in the world.',
   },
   {
-    name: 'Fully-tested with high coverage',
+    name: 'Battle-tested with high coverage',
     description:
-      'Unit and Integration testing are essential, aiming for high coverage (90%+).',
+      'Unit and Integration testing are essential in our mindset. We aim for high coverage (90%+).',
   },
   {
     name: 'Highly Reliable',
@@ -76,19 +76,11 @@ const features = [
   {
     name: 'Community-first',
     description:
-      'Our libraries will be used and contributed from the community around the world.',
+      'Our works are being used and contributed from the community around the world.',
   },
   {
     name: 'Actively in Development',
     description: `Our repositories are being checked frequently and ensure it still stays in the "state-of-the-art" state`,
-  },
-  {
-    name: 'Everything on GitHub',
-    description: `Yes, that's right. Including this website too. We uploaded everything on the GitHub.`,
-  },
-  {
-    name: 'Free Forever',
-    description: 'Open Source Software - Free forever here in ShipSaaS.',
   },
 ];
 </script>

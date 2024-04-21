@@ -26,7 +26,7 @@
         </a>
       </div>
       <p class="mt-10 text-center text-xs leading-5 text-gray-500">
-        &copy; 2023 ShipSaaS OSS Organization. All rights reserved.
+        &copy; 2024 ShipSaas Integration System LLC. All rights reserved.
       </p>
     </div>
   </footer>
