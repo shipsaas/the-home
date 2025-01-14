@@ -34,7 +34,7 @@
           <img
             class="mx-auto h-10 w-10 rounded-full"
             src="https://github.com/sethsandaru.png"
-            alt="Seth Phat - Seth Sandaru"
+            alt="Seth Phat"
           />
           <div
             class="mt-4 flex items-center justify-center space-x-3 text-base"
